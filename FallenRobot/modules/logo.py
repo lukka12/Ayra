@@ -281,7 +281,7 @@ async def lego(event):
     if os.path.exists(fname):
             os.remove(fname)
  except Exception as e:
-    await event.reply(f'Error, Report @karunada_kings_and_queens')
+    await event.reply(f'Error, Report @KASHYAP_IS_PRO')
 
 
 __mod_name__ = "Lᴏɢᴏ​"
