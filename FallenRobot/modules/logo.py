@@ -252,7 +252,7 @@ LOGO_LINKS            = ["https://te.legra.ph/file/9721515204b76ce78406b.jpg",
 async def lego(event):
  quew = event.pattern_match.group(1)
  if event.sender_id != OWNER_ID and not quew:
-  await event.reply('`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <Λ𝖦ՕᏒΛ>`')
+  await event.reply('`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <ꨄ︎ 𝐀𝐲𝐫𝐚 ꨄ︎>`')
   return
  pesan = await event.reply('**ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏɢᴏ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ sᴇᴄ​...**')
  try:
