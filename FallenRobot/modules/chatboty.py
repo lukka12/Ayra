@@ -212,7 +212,7 @@ def chatbot(update: Update, context: CallbackContext):
 
         bot.send_chat_action(chat_id, action="typing")
 
-        kukiurl = requests.get('https://www.kukiapi.xyz/api/apikey=KUKIg76Fg4EIo/botname/owner/message='+Message)
+        kukiurl = requests.get('https://kukiapi.xyz/api/apikey=1356469075-KUKIkq4WMg5FV4/AgoraAssistance/Agora/message={sweetie)
 
         Kuki = json.loads(kukiurl.text)
 
